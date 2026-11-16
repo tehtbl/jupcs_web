@@ -1,0 +1,21 @@
+---
+extends: default
+
+ignore: |
+  .venv/
+  .venv3/
+  examples/
+  roles_ext/
+  collections/
+  facts/
+  logs/
+
+rules:
+  braces:
+    max-spaces-inside: 1
+    level: error
+  brackets:
+    max-spaces-inside: 1
+    level: error
+  line-length: disable
+  truthy: disable
